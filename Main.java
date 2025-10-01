@@ -76,10 +76,10 @@ public class Main {
 				
 				goAgain = scanner.nextLine().trim();
 				if (goAgain.equalsIgnoreCase("yes")) {
-					calcDone = false;
+					break;
 				} else if (goAgain.equalsIgnoreCase("no")) {
 					appOn = false;
-					calcDone = false;
+					break;
 				}
 				
 				
@@ -89,3 +89,5 @@ public class Main {
 		scanner.close();
 	}
 }
+
+
